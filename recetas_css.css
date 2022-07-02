@@ -483,3 +483,76 @@ a{
         width: 8%;
     }
 }
+@media (max-width:450px){
+    .menu-nav{
+        padding: 0;
+    }
+    .menu-nav{
+        width: 100%;
+    }
+    .menu-nav a{
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        position: relative;
+    }
+    .menu-izquierda{
+        position: relative;
+        margin-right: -1rem;
+        padding-left: 0rem;
+    }
+    .menu-derecha{
+        position: relative;
+        margin-left: -1.2rem;
+    }
+    .menu-logo{
+        position: relative;
+        margin-left: -1rem;
+        padding: 0.2rem;
+    }
+    .main-video{
+        transform-origin: 0 0;
+        overflow: hidden;
+        z-index: -1;
+        margin-top: -30rem;
+        margin-bottom: -0.1rem;
+        width: 100%;
+        min-width:auto;
+    }
+    
+    .main-video video{
+        overflow: hidden;
+        width: 100%;
+        min-width: 1268px;
+    
+    }
+    .texto{
+        color: var(--color-texto1);                              /*MODIFICA EL ANCHO DE FONDO DEL BANNER DE INICIO ETC*/
+        z-index: 2;
+        position: relative;
+        margin-top: 2rem;
+        z-index: 100;
+    }
+    .noticias h1{
+        font-size: 1.4rem;
+    }
+    .recetas h1{
+        font-size: 1.4rem;
+    }
+    .titulo-abajo{
+        font-size: 2rem;
+    }
+    .titulo-recetas h1{
+        font-size: 2rem;
+    }
+    .redes-sociales img{
+        padding:1rem;
+        padding-top: 1rem;
+    }
+    .sobre-nosotros p{
+        font-size: 1rem;
+        margin-top: -1rem;
+        padding-bottom: 0.5rem;
+    
+    }
+    
+    }
